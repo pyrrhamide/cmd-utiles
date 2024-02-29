@@ -1,0 +1,29 @@
+######### Command line commands #########
+
+help [command]
+
+cd path/to/folder
+cd ..
+
+start [itemname.ext] # to open file
+ii [itemname.ext] # also to open file
+
+new-item [itemname.ext]
+md [foldername]
+rm [folder/filename.ext]
+rm .git -r -fo
+
+ls
+ls -Attributes Directory
+
+mv [oldname] [newname]
+
+clear
+
+exit
+
+### Pour lancer certains logiciels ###
+
+r.exe
+py
+code

@@ -1,0 +1,34 @@
+######## Git commands #########
+
+git clone [url.git] [nom du repo en local - facultatif]
+
+git status
+git diff [nom_fichier.ext]
+
+git pull
+git push
+
+git branch [new-branchname]
+git branch -d localBranchName
+git checkout [branch]
+git checkout -b [new-branchname]
+git push origin --delete remoteBranchName
+
+git add [fichier]
+git add .
+git commit -m "[message]"
+git commit -a -m "[message]"
+git commit --amend --no-edit
+
+git merge [branch à ajouter]
+git merge --no-ff [branch à ajouter]
+
+git log -n
+git log -n --oneline
+
+git reset --hard
+git reset --hard [commit no.]
+git clean -df
+
+########## Autres non-git ###########
+rm .git -r -fo
