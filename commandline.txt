@@ -1,9 +1,15 @@
 ######### Command line commands #########
 
+### ATTENTION 
+### principalement pour powershell, invite de commandes pas pareil 
+
 help [command]
+man [command] # pareil, ouvre description de la commande 
 
 cd path/to/folder
 cd ..
+cd ~ # pour retourner au dossier d'accueil/par défaut
+cd / # pour aller au dossier du C://
 
 start [itemname.ext] # to open file
 ii [itemname.ext] # also to open file
@@ -13,10 +19,21 @@ md [foldername]
 rm [folder/filename.ext]
 rm .git -r -fo
 
+cp [file.ext] [dir/][newfilename.ext] # copie
+
+mkdir [dirname]
+rmdir [dirname]
+
 ls
 ls -Attributes Directory
+ls -directory
+ls -file
+ls [dir/subdir/etc.]
 
 mv [oldname] [newname]
+rename [oldname.ext] [newname.ext]
+
+cat [file.ext] # affiche contenu dans console 
 
 clear
 
