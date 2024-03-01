@@ -16,9 +16,14 @@ git push origin --delete remoteBranchName
 
 git add [fichier]
 git add .
+git restore --staged [fichier] # to unstage
+
 git commit -m "[message]"
-git commit -a -m "[message]"
+git commit -a -m "[message]" # correction du message
 git commit --amend --no-edit
+
+git stash # ! quand travail dans autre branche qu'on veut pas commit tout de suite, bascule autre branche pour faire modifs (eg main), puis revenir sur branche avec stash
+git stash pop # pour récupérer le travail mis de côté 
 
 git merge [branch à ajouter]
 git merge --no-ff [branch à ajouter]
@@ -26,9 +31,14 @@ git merge --no-ff [branch à ajouter]
 git log -n
 git log -n --oneline
 
-git reset --hard
-git reset --hard [commit no.]
+git revert [commit no. qu'on veut enlever]
+
+# beaucoup plus fort, modifie l'historique (/!\ parcimonie)
+git reset HEAD~1 # pour revenir un commit en arrière, garder les modifications du précédent commit en staged 
+git reset --soft/--mixed/--hard # --mixed par défaut 
+git reset --hard [commit no.] # perte des anciennes modifications 
+
 git clean -df
 
 ########## Autres non-git ###########
-rm .git -r -fo
+rm .git -r -fo # enlever git
