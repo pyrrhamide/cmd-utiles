@@ -10,6 +10,7 @@ git push
 
 git branch [new-branchname]
 git branch -d localBranchName
+git switch [branch]
 git checkout [branch]
 git checkout -b [new-branchname]
 git push origin --delete remoteBranchName
@@ -39,6 +40,8 @@ git reset --soft/--mixed/--hard # --mixed par défaut
 git reset --hard [commit no.] # perte des anciennes modifications 
 
 git clean -df
+
+git update-git-for-windows
 
 ########## Autres non-git ###########
 rm .git -r -fo # enlever git
