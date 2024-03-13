@@ -1,0 +1,10 @@
+https://www.git-tower.com/learn/git/ebook/en/command-line/appendix/command-line-101#start
+
+* utiliser la touche TAB pour autocompléter les noms de dossiers/fichiers! 
+* taper TAB plusieurs fois affichera l'ensemble des fichiers/dossiers qui
+	* correspondent au début de ce qui est écrit
+	* sont dans le dossier, si rien n'est écrit (trop cool)
+	* eg : cd [TAB] 
+* CTRL + A emmène le curseur au début de la commande
+* CTRL + E emmène le curseur à la fin de la commande 
+* CTRL + C pour annuler une commande en cours d'exécution 
